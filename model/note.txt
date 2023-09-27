@@ -1,0 +1,10 @@
+blind.py: paper原本的(同時考慮kernel和noise當作degradation資訊)
+blind_modify:用moco分別提取kernel和noise 把kernel和noise representation分開加入sr model(DA block中)
+blind_upper_bound:用gt kernel和noise 把kernel和noise representation分開加入sr model (DA block中)
+
+因為之前t-sne實驗發現，kernel representation容易受到noise干擾，但是noise representation不易受到kernel干擾
+曾經嘗試用mutual information的方法拆解kernel和noise representation但是效果不好，放棄
+
+model_denoise:驗證用moco contrastive learning學習到的noise representation是image content insensitive 加上而外的loss限制，讓noise representation更pure沒image content資訊 
+model_upper_bound:表示先做denoise再做deblur(包含upsampler)
+之後再做iterative denoise多次再deblur(upsample)
