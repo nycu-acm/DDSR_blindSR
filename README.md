@@ -1,6 +1,6 @@
-# Two Heads Better than One: Dual Degradation Representation for Blind Super-Resolution #
+# Two Heads Better than One: Dual Degradation Representation for Blind Super-Resolution (ICIP 2024) #
 
-### | [preprint](https://www.techrxiv.org/707966/tvwm_bTzDzrNrE6mQHfGxg) | [bibtex](/doc/bibtex.bib) |
+### [Full Paper](https://ieeexplore.ieee.org/document/10647237) | [preprint](https://www.techrxiv.org/707966/tvwm_bTzDzrNrE6mQHfGxg) | [bibtex](/doc/bibtex.bib) | 
 
 ![Method](/doc/image/network_v1.png)
 
@@ -31,14 +31,17 @@ This work was financially supported in part (project number: 112UA10019) by the 
 ## Citation
 
 ```
-@article{ddsr,
-title={Two Heads Better than One: Dual Degradation Representation for Blind Super-Resolution},
-url={http://dx.doi.org/10.36227/techrxiv.170723395.59369240/v1},
-publisher={Institute of Electrical and Electronics Engineers (IEEE)},
-author={Yuan, Hsuan and Weng, Shao-Yu and Lo, I-Hsuan and Chiu, Wei-Chen and Xu, Yu-Syuan and Hsueh, Hao-Chien and Chuang, Jen-Hui and Huang, Ching-Chun},
-year={2024},
-month=feb 
-}
+@INPROCEEDINGS{10647237,
+  author={Yuan, Hsuan and Weng, Shao-Yu and Lo, I-Hsuan and Chiu, Wei-Chen and Xu, Yu-Syuan and Hsueh, Hao-Chien and Chuang, Jen-Hui and Huang, Ching-Chun},
+  booktitle={2024 IEEE International Conference on Image Processing (ICIP)}, 
+  title={Two Heads Better Than One: Dual Degradation Representation for Blind Super-Resolution}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1514-1520},
+  keywords={Degradation;Adaptation models;Head;Noise;Superresolution;Predictive models;Benchmark testing;Blind super-resolution;unknown degradations;contrastive learning},
+  doi={10.1109/ICIP51287.2024.10647237}}
+
 ```
 <!-- 
 © 2024 IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works. -->
