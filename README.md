@@ -4,9 +4,9 @@
 
 ![Method](/doc/image/network_v1.png)
 
-The pytorch implementation for "Two Heads Better than One: Dual Degradation Representation for Blind Super-Resolution".
 
-Abstract *Previous methods have demonstrated remarkable performance in single image super-resolution (SISR) tasks with
+## Abstract 
+*Previous methods have demonstrated remarkable performance in single image super-resolution (SISR) tasks with
 known and fixed degradation (e.g., bicubic downsampling). However, when the actual degradation deviates from these
 assumptions, these methods may experience significant declines in performance. In this paper, we propose a Dual
 Branch Degradation Extractor Network to address the blind SR problem. While some BlindSR methods assume noise free
