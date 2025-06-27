@@ -1,6 +1,6 @@
 # Two Heads Better than One: Dual Degradation Representation for Blind Super-Resolution (ICIP 2024) #
 
-###  | [Full Paper](https://ieeexplore.ieee.org/document/10647237) | [preprint](https://www.techrxiv.org/707966/tvwm_bTzDzrNrE6mQHfGxg) | [bibtex](/doc/bibtex.bib) | 
+###  | [Project Page](https://www.nightynight.xyz/ddsr.github.io/) | [Full Paper](https://ieeexplore.ieee.org/document/10647237) | [preprint](https://www.techrxiv.org/707966/tvwm_bTzDzrNrE6mQHfGxg) | [BibTex](/doc/bibtex.bib) | 
 
 ![Method](/doc/image/network_v1.png)
 
